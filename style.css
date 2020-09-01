@@ -16,7 +16,7 @@
 .envelope {
   width: 200px;
   height: 100px;
-  margin: 60px auto 0;
+  margin: 0 auto 0;
   background: #ddd;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.25);
   position: relative;
@@ -193,7 +193,7 @@
 
 
 .pop-up {
-  margin-top: -200px;
+  margin-top: -230px;
   animation: drop 3s ease forwards;
 }
 
@@ -308,7 +308,7 @@
   margin-right: auto;
   justify-content: center;
   opacity: 0;
-  animation: textview 1s 22s ease forwards;
+  animation: textview 1s 20s ease forwards;
 }
 .happy h1{
   display: flex;
@@ -389,4 +389,23 @@ h1 span:nth-child(10) {
   100%{
     opacity: 1;
   }
+}
+
+
+
+
+/* gif css and animation here */
+
+
+
+.gif{
+  margin-top: 34px;
+  height: 50px;
+  width:100%;
+  background: url(./images//blast.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  animation: textview 1s 20s ease forwards;
 }
