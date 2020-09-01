@@ -308,7 +308,7 @@
   margin-right: auto;
   justify-content: center;
   opacity: 0;
-  animation: textview 1s 22s ease forwards;
+  animation: textview 1s 20s ease forwards;
 }
 .happy h1{
   display: flex;
